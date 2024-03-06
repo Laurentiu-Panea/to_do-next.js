@@ -1,0 +1,69 @@
+.wrapper {
+  /* Centrarea conținutului pe ecran */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Adăugarea unui spațiu în jurul conținutului */
+  padding: 20px;
+  /* Setarea unei lățimi maxime */
+  max-width: 600px;
+  /* Centrarea învelișului pe ecran */
+  margin: 0 auto;
+}
+
+.input {
+  /* Setarea unei lățimi complete */
+  width: 100%;
+  /* Adăugarea unui spațiu în interiorul inputului */
+  padding: 10px;
+  /* Rotunjirea colțurilor */
+  border-radius: 5px;
+  /* Setarea unei borduri subțiri și gri */
+  border: 1px solid #ccc;
+  /* Adăugarea unui spațiu sub input */
+  margin-bottom: 10px;
+}
+
+.button {
+  /* Setarea unei lățimi complete */
+  width: 100%;
+  /* Adăugarea unui spațiu în interiorul butonului */
+  padding: 10px;
+  /* Rotunjirea colțurilor */
+  border-radius: 5px;
+  /* Eliminarea bordurii */
+  border: none;
+  /* Setarea unei culori de fundal */
+  background-color: #007bff;
+  /* Setarea culorii textului */
+  color: white;
+  /* Adăugarea unui efect de hover */
+  transition: background-color 0.3s ease;
+}
+.button_stergere {
+  width: 100px;
+  /* Adăugarea unui spațiu în interiorul butonului */
+  padding: 2px;
+  /* Rotunjirea colțurilor */
+  border-radius: 5px;
+  /* Eliminarea bordurii */
+  border: none;
+  /* Setarea unei culori de fundal */
+  background-color: #3ace05;
+  /* Setarea culorii textului */
+  color: white;
+  /* Adăugarea unui efect de hover */
+  transition: background-color 0.3s ease;
+}
+.disabled {
+  /* Proprietăți pentru butonul inactiv */
+  cursor: not-allowed;
+  opacity: 0.5; /* Puteți ajusta opacitatea la necesitate */
+  /* Alte stiluri specifice pentru butonul inactiv */
+}
+
+.button:hover {
+  /* Schimbarea culorii de fundal la hover */
+  background-color: #0056b3;
+}
